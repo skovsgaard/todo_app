@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h2>Welcome to the demo app!</h2>
+  <p class="lead">This is a sample todo-app using Phoenix and Ecto.</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-mg-12">
+    <h4>New todo item!</h4>
+    <form id="new-post" method="post" action="/entries">
+      <input type="text" name="title" id="title-field" placeholder="Enter your title here." required></input><br>
+      <textarea name="content" id="content-field" placeholder="Enter your post here." required></textarea><br>
+      <input type="text" name="due_date" placeholder="Due on" /><br>
+      <button type="submit">Submit post</button>
+    </form>
+  </div> 
+</div>
+

@@ -1,0 +1,7 @@
+TODO
+====
+
+* Add option to update posts.
+* Check options for real-timing.
+* Remove unnecessary routes.
+* Clean up code by aliasing.
