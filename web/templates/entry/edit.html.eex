@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <h2>Welcome to the demo app!</h2>
+  <p class="lead">This is a sample todo-app using Phoenix and Ecto.</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-mg-12">
+    <h4>New todo item!</h4>
+    <form id="new-post" method="post" action="<%= entry_path(:update, @entry.id) %>">
+      <input type="hidden" name="_method" value="PUT">
+
+      <label for="title">Entry title</label><br>
+      <input type="text" name="title" id="title-field" value="<%= @entry.title %>"></input><br>
+
+      <label for="content">Entry content</label><br>
+      <textarea name="content" id="content-field" ><%= @entry.content %></textarea><br>
+
+      <label for="due_date">Due date</label><br>
+      <input type="text" name="due_date" value="<%= @entry.due_date %>"></input><br>
+
+      <button type="submit">Submit post</button>
+      <a href="/entries" class="btn btn-danger">Cancel</a>
+    </form>
+  </div> 
+</div>
+
