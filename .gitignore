@@ -1,6 +1,6 @@
 /_build
 /deps
-/priv/repo
+/priv/repo/
 /web/models/repo.ex
 /priv/static/js/coffee-script.js
 erl_crash.dump
