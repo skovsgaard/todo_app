@@ -1,4 +1,6 @@
 /_build
 /deps
+/priv/repo
+/web/models/repo.ex
 erl_crash.dump
 *.ez
